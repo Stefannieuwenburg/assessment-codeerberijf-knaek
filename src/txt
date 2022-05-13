@@ -1,0 +1,10 @@
+Fonts
+HEADINGS
+Poppins, sans-serif
+BODY
+Poppins, sans-serif
+
+#bd4689
+
+<Navbar collapseOnSelect expand="lg" variant="dark">
+style={{ background: "#bd4689" }}
