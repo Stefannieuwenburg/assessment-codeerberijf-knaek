@@ -1,6 +1,5 @@
 import React from 'react'
-import { FaFacebook } from "react-icons/fa";
-import { BsInstagram } from "react-icons/Bs";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { Container, Row, Col } from "react-bootstrap";
 
 
@@ -23,7 +22,7 @@ const Footer = () => {
                                   (target.style.color = "gray")
                               }
                           />
-                          <BsInstagram
+                          <FaInstagram
                               style={{ color: "gray", fontSize: "30px" }}
                               onMouseOver={({ target }) =>
                                   (target.style.color = "red")
